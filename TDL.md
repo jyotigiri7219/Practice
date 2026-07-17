@@ -3,6 +3,12 @@
 - Series create
 
 # Day 2
-- creating new columns
-- indexing
+- DataFrame
+- creating a DataFrame
+- Slecation & indexing of columns
+- Creating a new colunm
+- Removing rows
+- Selction subsets of rows & column
+- Selection rows
+- conditional selectiona
   
