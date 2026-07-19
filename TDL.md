@@ -12,3 +12,6 @@
 - Selection rows
 - conditional selectiona
   
+# Day 3
+- Finding Mssing Data
+- Removing Mssing Data
