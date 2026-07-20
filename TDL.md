@@ -16,3 +16,9 @@
 - Finding Missing Data
 - Removing Missing Data
 - Filling Tha Missing Data
+
+# Day 4
+- Mering Joining Concatnation
+- Mering 2 DataFrames
+- Concatination of 2 DataFrame
+- Joining of 2 DataFrame
