@@ -13,5 +13,6 @@
 - conditional selectiona
   
 # Day 3
-- Finding Mssing Data
-- Removing Mssing Data
+- Finding Missing Data
+- Removing Missing Data
+- Filling Tha Missing Data
