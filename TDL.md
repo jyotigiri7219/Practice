@@ -48,3 +48,51 @@
 
 ### 💡 Notes
 Today I started my Power BI journey. My goal is to become skilled in Data Analytics and Business Intelligence along with Python.
+
+
+# Power BI Data Model
+
+## Tables Used
+
+### 1. Dim_Date
+- Date
+- Day
+- Month
+- MonthName
+- Quarter
+- Year
+
+### 2. Fact_Sales
+- CustomerID
+- Date
+- ProductID
+- Quantity
+- SaleID
+- TotalSales
+- UnitPrice
+
+### 3. Dim_Products
+- Category
+- ProductID
+- ProductName
+- UnitPrice
+
+---
+
+## Relationships
+
+### 1. Date Relationship
+Dim_Date[Date] → Fact_Sales[Date]  
+- Type: One-to-Many (1 → *)  
+- Cross Filter: Single  
+
+### 2. Product Relationship
+Fact_Sales[ProductID] → Dim_Products[ProductID]  
+- Type: Many-to-One (* → 1)  
+- Cross Filter: Single  
+
+---
+
+## Notes
+- Dim tables act as lookup tables  
+- Fact_Sales is the main transactional table  
