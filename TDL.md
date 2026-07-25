@@ -95,4 +95,22 @@ Fact_Sales[ProductID] → Dim_Products[ProductID]
 
 ## Notes
 - Dim tables act as lookup tables  
-- Fact_Sales is the main transactional table  
+- Fact_Sales is the main transactional table 
+
+
+
+# Power BI Sales Report
+
+## Dataset
+Tables used:
+- Dim_Date
+- Fact_Sales
+- Dim_Products
+
+---
+
+## Measure Created
+
+### Total Sales Measure
+```DAX
+Sumoftotalsales = SUM(Fact_Sales[TotalSales]) 
