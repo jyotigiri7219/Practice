@@ -25,7 +25,7 @@
 
   # Daily Tech Log (DTL)
 
-## 📅 22 July 2026
+
 
 ### ✅ Today's Progress
 - Started learning **Microsoft Power BI**
@@ -92,10 +92,6 @@ Fact_Sales[ProductID] → Dim_Products[ProductID]
 - Cross Filter: Single  
 
 ---
-
-## Notes
-- Dim tables act as lookup tables  
-- Fact_Sales is the main transactional table 
 
 
 
