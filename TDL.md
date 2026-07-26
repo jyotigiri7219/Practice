@@ -46,8 +46,6 @@
 ### ⏱️ Study Time
 1-2 Hours
 
-### 💡 Notes
-Today I started my Power BI journey. My goal is to become skilled in Data Analytics and Business Intelligence along with Python.
 
 
 # Power BI Data Model
