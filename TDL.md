@@ -101,10 +101,11 @@ Tables used:
 - Fact_Sales
 - Dim_Products
 
----
+  ---
 
-## Measure Created
+# Day 5 pandas
+- Aggrgation
+- min, max, mean, count, std etc
 
-### Total Sales Measure
-```DAX
-Sumoftotalsales = SUM(Fact_Sales[TotalSales]) 
+
+-
